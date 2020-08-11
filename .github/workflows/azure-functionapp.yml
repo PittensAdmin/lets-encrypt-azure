@@ -50,5 +50,5 @@ jobs:
             ./deploy.sh $ResourceGroup
       - uses: azure/functions-action@6042d67de76fd158d51281ddb40a22c3e1c1e1d1 # pin@v1
         with:
-          app-name: ${{ env.ResourceGroup }}
+          app-name: ${{ pittens-letsencrypt }}
           package: functionapp
