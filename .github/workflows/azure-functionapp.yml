@@ -4,7 +4,7 @@ on:
       - master
 
 env:
-  ResourceGroup: pittens-letsencrypt
+  ResourceGroup: letsencrypt-func
 jobs:
   build:
     runs-on: ubuntu-latest
